@@ -438,6 +438,18 @@ PRODUCT_COPY_FILES += \
     
 # Fingerprint [+] Decker
 PRODUCT_COPY_FILES += \
-     vendor/doogee/x5max_pro/proprietary/lib64/libfprint-x64.so:system/lib64/libfprint-x64.so	
+    vendor/doogee/x5max_pro/proprietary/lib64/libfprint-x64.so:system/lib64/libfprint-x64.so	
 PRODUCT_COPY_FILES += \
     vendor/doogee/x5max_pro/proprietary/lib64/hw/fingerprint.default.so:system/lib64/hw/fingerprint.default.so
+
+# Camera fix
+PRODUCT_COPY_FILES += \
+    vendor/doogee/x5max_pro/proprietary/lib64/libgybeauty.so:system/lib64/libgybeauty.so \
+    vendor/doogee/x5max_pro/proprietary/lib64/libgybeauty420.so:system/lib64/libgybeauty420.so \
+    vendor/doogee/x5max_pro/proprietary/lib64/libgybeauty422.so:system/lib64/libgybeauty422.so \
+    vendor/doogee/x5max_pro/proprietary/lib/libgybeauty.so:system/lib/libgybeauty.so \
+    vendor/doogee/x5max_pro/proprietary/lib/libgybeauty420.so:system/lib/libgybeauty420.so \
+    vendor/doogee/x5max_pro/proprietary/lib/libgybeauty422.so:system/lib/libgybeauty422.so
+
+
+
