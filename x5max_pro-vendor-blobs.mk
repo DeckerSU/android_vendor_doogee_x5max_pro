@@ -438,5 +438,5 @@ PRODUCT_COPY_FILES += \
 # Fingerprint [+] Decker
 PRODUCT_COPY_FILES += \
      vendor/doogee/x5max_pro/proprietary/lib64/libfprint-x64.so:system/lib64/libfprint-x64.so	
-#PRODUCT_COPY_FILES += \
-#    vendor/doogee/x5max_pro/proprietary/lib64/hw/fingerprint.default.so:system/lib64/hw/fingerprint.default.so
+PRODUCT_COPY_FILES += \
+    vendor/doogee/x5max_pro/proprietary/lib64/hw/fingerprint.default.so:system/lib64/hw/fingerprint.default.so
