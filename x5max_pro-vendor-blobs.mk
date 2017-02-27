@@ -434,4 +434,4 @@ PRODUCT_COPY_FILES += \
     vendor/doogee/x5max_pro/proprietary/lib/libvcodec_cap.so:system/lib/libvcodec_cap.so \
     vendor/doogee/x5max_pro/proprietary/lib64/libvcodec_cap.so:system/lib64/libvcodec_cap.so \
     vendor/doogee/x5max_pro/proprietary/lib/libh264enc_sb.ca7.so:system/lib/libh264enc_sb.ca7.so \
-    vendor/doogee/x5max_pro/proprietary/lib/libfprint-x64.so:system/lib/libfprint-x64.so
+    vendor/doogee/x5max_pro/proprietary/lib64/libfprint-x64.so:system/lib64/libfprint-x64.so
