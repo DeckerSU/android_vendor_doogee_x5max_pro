@@ -364,6 +364,7 @@ PRODUCT_COPY_FILES += \
     vendor/doogee/x5max_pro/proprietary/etc/wifi/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf \
     vendor/doogee/x5max_pro/proprietary/etc/firmware/ROMv2_lm_patch_1_1_hdr.bin:system/etc/firmware/ROMv2_lm_patch_1_1_hdr.bin \
     vendor/doogee/x5max_pro/proprietary/etc/firmware/modem_1_lwg_n.img:system/etc/firmware/modem_1_lwg_n.img \
+    vendor/doogee/x5max_pro/proprietary/etc/firmware/em_filter_1_lwg_n.bin:system/etc/firmware/em_filter_1_lwg_n.bin \
     vendor/doogee/x5max_pro/proprietary/etc/firmware/ROMv2_lm_patch_1_0_hdr.bin:system/etc/firmware/ROMv2_lm_patch_1_0_hdr.bin \
     vendor/doogee/x5max_pro/proprietary/etc/firmware/mt6627/mt6627_fm_v5_coeff.bin:system/etc/firmware/mt6627/mt6627_fm_v5_coeff.bin \
     vendor/doogee/x5max_pro/proprietary/etc/firmware/mt6627/mt6627_fm_v5_patch.bin:system/etc/firmware/mt6627/mt6627_fm_v5_patch.bin \
