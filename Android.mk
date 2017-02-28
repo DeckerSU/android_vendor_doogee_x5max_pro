@@ -15,6 +15,16 @@ $(info [Decker] copying DP Framework proprietary blobs)
 #include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE = libfprint-x64
+LOCAL_MODULE_CLASS = SHARED_LIBRARIES
+LOCAL_MODULE_OWNER = $VENDOR
+LOCAL_MODULE_SUFFIX = .so
+LOCAL_PROPRIETARY_MODULE = true
+LOCAL_MULTILIB = 64
+LOCAL_SRC_FILES_64 = proprietary/lib64/libfprint-x64.so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE = libdpframework
 LOCAL_MODULE_CLASS = SHARED_LIBRARIES
 LOCAL_MODULE_OWNER = $VENDOR
